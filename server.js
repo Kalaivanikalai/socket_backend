@@ -14,9 +14,8 @@ app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
 
 
-
 app.get('/',(req,res)=>{
-  res.send("App is Running");
+  res.send("its running!");
 })
 
 MONGO_URL="mongodb+srv://chatapp:chatapp123@cluster0.8jwgb.mongodb.net/chatapp?retryWrites=true&w=majority"
